@@ -1,0 +1,53 @@
+.moret__in,
+.logint__in {
+  width: 13.5rem;
+  padding: 7px 0;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  cursor: pointer;
+}
+.moret__in > .MuiSvgIcon-root {
+  padding: 0px 7px;
+  color: #2874f0;
+  font-size: 17px;
+}
+.moret__in:hover,
+.logint__in:hover {
+  background-color: rgb(245, 243, 243);
+}
+.moret > hr,
+.logint > hr {
+  margin-left: -10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  width: 108.5%;
+  height: 0.5px;
+  /* color: rgb(235, 235, 235); */
+  background-color: rgb(233, 233, 233);
+  border: none;
+  /* padding: 0; */
+}
+
+.logint__in > .MuiSvgIcon-root,
+.logint__in > img {
+  color: #2874f0;
+  padding: 0px 7px;
+  font-size: 17px;
+}
+.logint__i {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logint__i > p {
+  color: #2874f0;
+  font-weight: 600;
+  font-size: 14px;
+}
+.logint__i > h2 {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}

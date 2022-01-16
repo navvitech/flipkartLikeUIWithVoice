@@ -1,0 +1,119 @@
+.modalL {
+  background-color: white;
+  height: 75vh;
+  width: 47vw;
+  display: flex;
+}
+
+.mmmmm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closeButton > .MuiSvgIcon-root {
+  position: relative;
+  font-size: 45px !important;
+  color: white;
+  cursor: pointer;
+  bottom: 225px;
+  left: 725px;
+}
+.modalLLeft__top > h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+}
+.modalLLeft__top > p {
+  font-size: 18px;
+  margin-top: 16px;
+  line-height: 150%;
+  color: #dbdbdb;
+}
+.modalL__left {
+  flex: 0.35;
+  padding: 40px 33px;
+  background-color: #2874f0;
+  background-image: url(//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_dec4bf.png);
+  background-position: center 85%;
+  background-repeat: no-repeat;
+}
+.modalL__right {
+  flex: 0.65;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.wrapper {
+  width: 300px;
+}
+.wrapper .input__data {
+  height: 40px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 34px;
+}
+.wrapper .input__data input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 98%;
+  border-bottom: 2px solid silver;
+}
+.input__data input:focus ~ label {
+  transform: translateY(-20px);
+  font-size: small;
+}
+.wrapper .input__data label {
+  position: absolute;
+  color: gray;
+  bottom: 10px;
+  pointer-events: none;
+  left: 0;
+  transition: all 0.2s ease;
+}
+
+.wrapper .input__data .underline {
+  position: absolute;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+}
+.input__data .underline:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #2874f0;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+.input__data input:focus ~ .underline:before,
+.input__data input:valid ~ .underline:before {
+  transform: scaleX(1);
+}
+
+.form__button > button {
+  width: 85%;
+  height: 48px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: #fb641b;
+  color: white;
+}
+.form__button1 > button {
+  width: 85%;
+  height: 48px;
+  border: none;
+  outline: none;
+  text-align: center;
+
+  color: #2874f0;
+}
+.form__button1 {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  margin-top: 16px;
+}

@@ -1,0 +1,245 @@
+/* .header {
+  background-color: #2874f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header__first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 120px;
+}
+.header__first > img {
+  width: 75px;
+  object-fit: contain;
+}
+.header__second {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+}
+.header__second > input {
+  border: none;
+  outline: none;
+  width: 36vw;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.header__second > .MuiSvgIcon-root {
+  color: #2874f0;
+  padding: 5px;
+  font-size: 25px;
+}
+.header__third > button {
+  border: none;
+  outline: none;
+  width: 9vw;
+  color: #2874f0;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 7px;
+}
+.header__fourth {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header__fourth > span {
+  color: white;
+  font-weight: 600;
+}
+.header__fourth,
+.header__fifth > .MuiSvgIcon-root {
+  color: white;
+}
+.header__fifth {
+  display: flex;
+  align-items: center;
+  padding-right: 120px;
+}
+.header__fifth > p {
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.showLogin > .showLogin__button > button {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #fb641b;
+  color: white;
+  font-size: 16px;
+  font-weight: 550;
+}
+.showLogin__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showLogin__info {
+  font-size: 15px;
+  font-weight: 650;
+} */
+
+.header {
+  background: #2874f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2px 0px;
+}
+.first {
+  padding-right: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 120px;
+}
+.first1 {
+  display: flex;
+  align-items: center;
+}
+.first > img {
+  /* height: 100px; */
+  width: 75px;
+  object-fit: contain;
+}
+.second {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+}
+.second > input {
+  border: none;
+  outline: none;
+  width: 36vw;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.second > .MuiSvgIcon-root {
+  color: #2874f0;
+  padding: 5px;
+  font-size: 25px;
+}
+.third > button {
+  border: none;
+  outline: none;
+  padding: 7px;
+  width: 9vw;
+  color: #2874f0;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fourth {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fourth:hover > .MuiSvgIcon-root {
+  transition: transform 0.2s;
+  transform: rotate(180deg) translateY(-3px) translateX(-3px);
+}
+.fourth > .MuiSvgIcon-root {
+  color: white;
+  font-size: 17px !important;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.fourth > p {
+  color: white;
+  font-weight: 600;
+}
+.fifth {
+  align-items: center;
+  display: flex;
+  padding-right: 120px;
+}
+.fifth > img {
+  cursor: pointer;
+  width: 20px;
+  padding: 10px;
+}
+
+.moret__in,
+.login__in {
+  width: 13.5rem;
+  padding: 7px 0;
+  display: flex;
+  height: 35px;
+  align-items: center;
+}
+.moret__in > .MuiSvgIcon-root {
+  padding: 0px 7px;
+  color: #2874f0;
+  font-size: 17px;
+}
+.moret__in:hover,
+.login__in:hover {
+  background-color: rgb(245, 243, 243);
+}
+.moret > hr,
+.login_t > hr {
+  margin-left: -10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  width: 108.5%;
+  height: 0.5px;
+  /* color: rgb(235, 235, 235); */
+  background-color: rgb(233, 233, 233);
+  border: none;
+  /* padding: 0; */
+}
+
+.login__in > .MuiSvgIcon-root,
+.login__in > img {
+  color: #2874f0;
+  padding: 0px 7px;
+  font-size: 17px;
+}
+.login__i {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login__i > p {
+  color: #2874f0;
+  font-weight: 600;
+  font-size: 14px;
+}
+.login__i > h2 {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+.showLogin {
+  padding: 10px;
+  width: 15vw;
+}
+.showLogin > .showLogin__button > button {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #fb641b;
+  color: white;
+  font-size: 16px;
+  font-weight: 550;
+}
+.showLogin__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showLogin__info {
+  font-size: 15px;
+  font-weight: 650;
+}

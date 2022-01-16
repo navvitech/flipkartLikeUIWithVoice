@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.orders__header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 94, 35);
+  color: aliceblue;
+  align-items: center;
+  height: 15vh;
+}
+.orders__body {
+  background-color: rgb(6, 195, 195);
+  width: 100vw;
+  height: 85vh;
+}
+.orders__body > h1 {
+  margin: 0;
+  color: aliceblue !important;
+  font-size: 100px;
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+  padding-top: 170px;
+}
+.orders__header > a.orders--active {
+  border-bottom: 5px solid aliceblue;
+  padding: 6px;
+  color: rgb(35, 252, 7);
+}
